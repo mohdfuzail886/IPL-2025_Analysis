@@ -73,4 +73,4 @@ jupyter lab
 
 Data: Kaggle, GitHub IPL Datasets, ESPNcricinfo
 
-Developed as part of a Data Analysis portfolio project using Python
+Doing it as part of a Data Analysis portfolio project using Python
