@@ -1,76 +1,79 @@
-🏏 IPL 2025 Data Analysis (Python)
-📌 Project Overview
+# 🏏 IPL 2025 Data Analysis (Python)
 
-This project explores and analyzes the Indian Premier League (IPL) 2025 dataset using Python.
-The analysis covers matches, ball-by-ball data, players, venues, and performance trends.
-The goal is to extract insights, visualize trends, and build baseline predictive models (e.g., match outcome prediction).
+## 📌 Project Overview
+This project performs an in-depth analysis of the **Indian Premier League (IPL) 2025** dataset using Python.  
+It explores matches, ball-by-ball data, players, venues, and performance trends to extract insights, visualize trends, and build baseline predictive models (e.g., match outcome prediction).
 
-📂 Project Structure
+---
+
+## 📂 Project Structure
 ipl-2025-analysis/
-├── data/                  # Raw IPL 2025 datasets (matches.csv, ball_by_ball.csv, players.csv)
+├── data/ # Raw IPL 2025 datasets (matches.csv, ball_by_ball.csv, players.csv)
 ├── notebooks/
-│   ├── 01-data-cleaning.ipynb
-│   ├── 02-eda.ipynb
-│   └── 03-modeling.ipynb
-├── src/                   # Utility scripts (data loaders, functions)
+│ ├── 01-data-cleaning.ipynb
+│ ├── 02-eda.ipynb
+│ └── 03-modeling.ipynb
+├── src/ # Utility scripts (data loaders, functions)
 ├── reports/
-│   └── figures/           # Saved visualizations
+│ └── figures/ # Saved visualizations
 ├── requirements.txt
 └── README.md
 
-📊 Data Sources
+> ⚠️ **Note:** Raw data files are large and may not be included. Download from the sources below and place them inside the `data/` folder.
 
-IPL 2025 Records (Kaggle)
+---
 
-IPL Dataset 2008–2025 (Kaggle)
+## 📊 Data Sources
+- IPL 2025 Records – [Kaggle](https://www.kaggle.com/)  
+- IPL Dataset 2008–2025 – [Kaggle](https://www.kaggle.com/)  
+- GitHub IPL Dataset  
+- ESPNcricinfo (for validation)
 
-GitHub IPL Dataset
+---
 
-ESPNcricinfo
- for validation
-
-⚠️ Note: Raw data files are large and may not be included in this repo. Please download from the sources above and place inside the data/ folder.
-
-⚙️ Installation & Setup
-1. Clone the repository
+## ⚙️ Installation & Setup
+```bash
+# Clone the repository
 git clone https://github.com/yourusername/ipl-2025-analysis.git
 cd ipl-2025-analysis
 
-2. Create a virtual environment and install dependencies
+# Create a virtual environment
 python -m venv venv
-source venv/bin/activate   # (Linux/Mac)
-venv\Scripts\activate      # (Windows)
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
+
+# Install dependencies
 pip install -r requirements.txt
 
-3. Launch Jupyter Lab
+# Launch Jupyter Lab
 jupyter lab
 
-📈 Analysis Highlights
+##📈 Analysis Highlights
 
-✅ Season-wise summary (matches, winners, average runs/wickets)
+✅ Season-wise Summary: Matches, winners, average runs/wickets
 
-✅ Top batsmen & bowlers (runs, strike rates, wickets, economy rates)
+✅ Top Players: Batsmen (runs, strike rates), Bowlers (wickets, economy rates)
 
-✅ Venue performance analysis (average scores, win percentages)
+✅ Venue Analysis: Average scores, win percentages
 
-✅ Toss vs Match Outcome analysis
+✅ Toss Impact: Toss vs Match Outcome analysis
 
-✅ Powerplay, middle overs, and death overs breakdown
+✅ Overs Breakdown: Powerplay, middle overs, death overs
 
-✅ Predictive modeling (baseline match outcome prediction using ML)
+✅ Predictive Modeling: Baseline match outcome prediction using ML
 
-✅ Visualizations with Matplotlib, Seaborn, and Plotly
+✅ Visualizations: Matplotlib, Seaborn, and Plotly
 
-🚀 Future Improvements
+##🚀 Future Improvements
 
-🔹 Build a live win probability model from ball-by-ball data
+Build a live win probability model using ball-by-ball data
 
-🔹 Deploy dashboards with Streamlit / Power BI
+Deploy interactive dashboards with Streamlit or Power BI
 
-🔹 Extend analysis across multiple seasons (2008–2025)
+Extend analysis across multiple IPL seasons (2008–2025)
 
-🏆 Credits
+##🏆 Credits
 
-Data: Kaggle, GitHub IPL Datasets, ESPNcricinfo
+Data Sources: Kaggle, GitHub IPL Datasets, ESPNcricinfo
 
-Doing it as part of a Data Analysis portfolio project using Python
+Purpose: Data Analysis portfolio project using Python
